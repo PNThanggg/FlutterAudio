@@ -26,25 +26,4 @@ object Constant {
     const val REMOVE_FROM_PLAYLIST = "removeFromPlaylist"
     const val RENAME_PLAYLIST = "renamePlaylist"
     const val MOVE_ITEM_TO = "moveItemTo"
-
-    const val ACTION_NOTIFICATION_DELETE =
-        "com.pnt.intent.action.ACTION_NOTIFICATION_DELETE"
-    const val CONTENT_STYLE_SUPPORTED = "android.media.browse.CONTENT_STYLE_SUPPORTED"
-    const val CONTENT_STYLE_PLAYABLE_HINT = "android.media.browse.CONTENT_STYLE_PLAYABLE_HINT"
-    const val CONTENT_STYLE_BROWSABLE_HINT = "android.media.browse.CONTENT_STYLE_BROWSABLE_HINT"
-    const val CONTENT_STYLE_LIST_ITEM_HINT_VALUE = 1
-    const val CONTENT_STYLE_GRID_ITEM_HINT_VALUE = 2
-    const val CONTENT_STYLE_CATEGORY_LIST_ITEM_HINT_VALUE = 3
-    const val CONTENT_STYLE_CATEGORY_GRID_ITEM_HINT_VALUE = 4
-
-    private const val SHARED_PREFERENCES_NAME = "audio_service_preferences"
-
-    private const val NOTIFICATION_ID = 1124
-    private const val REQUEST_CONTENT_INTENT = 1000
-    const val NOTIFICATION_CLICK_ACTION = "com.pnt.audio_service.NOTIFICATION_CLICK"
-    const val CUSTOM_ACTION_STOP = "com.pnt.audio_service.action.STOP"
-    const val CUSTOM_ACTION_FAST_FORWARD = "com.pnt.audio_service.action.FAST_FORWARD"
-    const val CUSTOM_ACTION_REWIND = "com.pnt.audio_service.action.REWIND"
-    private const val BROWSABLE_ROOT_ID = "root"
-    private const val RECENT_ROOT_ID = "recent"
 }
